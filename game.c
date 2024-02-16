@@ -155,6 +155,7 @@ int main(int argc, char const *argv[])
     info();
 
     playen(s);   
+    sleep(5);
     return 0;
 }
 
