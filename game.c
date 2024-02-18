@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #define max 3
 /*struct player 
 {
@@ -65,6 +66,7 @@ void plays(char s[max][max], unsigned short int player){
     {
         printf("player 2  enter column (x,y)   : \n"); scanf("%hu%hu",&x,&y);
     }
+    clrscr();
     
     
     
